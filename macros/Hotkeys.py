@@ -16,7 +16,7 @@ from adafruit_hid.keycode import Keycode
 # See other macro files for typical Keycode examples.
 
 app = {               # REQUIRED dict, must be named 'app'
-    'name' : '', # Application name
+    'name' : 'Hotkeys', # Application name
     'macros' : [      # List of button macros...
         # COLOR    LABEL    KEY SEQUENCE
         # 1st row ----------
