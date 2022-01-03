@@ -42,10 +42,10 @@ class App:
             else:  # Key not in use, no label or LED
                 macropad.pixels[i] = 0
                 group[i].text = ''
-#        macropad.keyboard.release_all() #Commentted out to prevent error when PC is off
-#        macropad.consumer_control.release() #Commentted out to prevent error when PC is off
-#        macropad.mouse.release_all() #Commentted out to prevent error when PC is off
-#        macropad.stop_tone() #Commentted out to prevent error when PC is off
+#        macropad.keyboard.release_all() #Commentted out to prevent error when PC is off, pressing keys breaks this
+#        macropad.consumer_control.release() #Commentted out to prevent error when PC is off, pressing keys breaks this
+#        macropad.mouse.release_all() #Commentted out to prevent error when PC is off, pressing keys breaks this
+#        macropad.stop_tone() #Commentted out to prevent error when PC is off, pressing keys breaks this
         macropad.pixels.show()
         macropad.display.refresh()
 
