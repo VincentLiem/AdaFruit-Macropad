@@ -1,4 +1,6 @@
 # MACROPAD Hotkeys example: Hotkeys
+# Tested in Windows only
+
 
 from adafruit_hid.consumer_control_code import ConsumerControlCode
 from adafruit_hid.keycode import Keycode
