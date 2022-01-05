@@ -11,8 +11,8 @@ app = {               # REQUIRED dict, must be named 'app'
         # COLOR    LABEL    KEY SEQUENCE
         # 1st row ----------
         (0x000000, 'New', [Keycode.CONTROL, 'n']),
-        (0x000000, 'Open', [Keycode.CONTROL, 'o']),
-        (0x000000, 'Save', [Keycode.CONTROL, 's']),
+        (0x000000, 'Emoji', [Keycode.GUI, '.']),
+        (0x000000, 'PrtScrn', [Keycode.CONTROL, Keycode.PRINT_SCREEN]),
         # 2nd row ----------
         (0x000000, 'Cut', [Keycode.CONTROL, 'x']),
         (0x000000, 'Copy', [Keycode.CONTROL, 'c']),
