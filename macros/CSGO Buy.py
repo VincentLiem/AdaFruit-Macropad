@@ -14,7 +14,7 @@ app = {               # REQUIRED dict, must be named 'app'
         # 2nd row ----------
         (0x000000, 'Galil', ['B41B']),
         (0x000000, 'AK/M4', ['B42B']),
-        (0x000000, 'SG/AUG', ['B44'B]),
+        (0x000000, 'SG/AUG', ['B44B']),
         # 3rd row ----------
         (0x000000, 'P250', ['B13B']),
         (0x000000, 'T9/57', ['B14B']),
