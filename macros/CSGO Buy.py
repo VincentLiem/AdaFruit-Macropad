@@ -12,7 +12,7 @@ app = {               # REQUIRED dict, must be named 'app'
         (0x000000, 'AWP', ['B45B']),
         (0x000000, 'Auto', ['B46B']),
         # 2nd row ----------
-        (0x000000, 'Galil', ['B41B']),
+        (0x000000, 'Gal/Fam', ['B41B']),
         (0x000000, 'AK/M4', ['B42B']),
         (0x000000, 'SG/AUG', ['B44B']),
         # 3rd row ----------
