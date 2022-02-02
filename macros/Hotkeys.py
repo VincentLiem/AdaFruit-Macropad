@@ -4,8 +4,7 @@
 
 from adafruit_hid.consumer_control_code import ConsumerControlCode
 from adafruit_hid.keycode import Keycode
-# You can still import Keycode as well if a macro file mixes types!
-# See other macro files for typical Keycode examples.
+
 
 app = {               # REQUIRED dict, must be named 'app'
     'name' : 'Hotkeys', # Application name
