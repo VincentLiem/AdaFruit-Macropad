@@ -1,6 +1,7 @@
 # MACROPAD Hotkeys example: Universal Numpad
 
-from adafruit_hid.keycode import Keycode # REQUIRED if using Keycode.* values
+from adafruit_hid.consumer_control_code import ConsumerControlCode
+from adafruit_hid.keycode import Keycode
 
 
 app = {                # REQUIRED dict, must be named 'app'
