@@ -8,11 +8,11 @@ app = {               # REQUIRED dict, must be named 'app'
         # COLOR    LABEL    KEY SEQUENCE
         # 1st row ----------
         (0x000000, 'Overlay', [Keycode.ALT, 'z']), #Shadowplay Overlay
-        (0x000000, 'Pic', [Keycode.ALT, Keycode.F1]), #Screenshot
+        (0x000000, 'Shot', [Keycode.ALT, Keycode.F1]), #Screenshot
         (0x000000, 'Rec', [Keycode.ALT, Keycode.F10]), #Save Instant Replay
         # 2nd row ----------
-        (0x000000, 'Stats', [Keycode.CONTROL, Keycode.ALT, 'r']), #Performance Overlay
-        (0x000000, 'Mic', [Keycode.CONTROL, Keycode.ALT, 'm']), # Toggle Mic````
+        (0x000000, 'FPS', [Keycode.CONTROL, Keycode.ALT, 'r']), #Performance Overlay
+        (0x000000, 'Mic', [Keycode.CONTROL, Keycode.ALT, 'm']), # Toggle Mic
         (0x000000, 'P2T', [Keycode.GRAVE_ACCENT]), #Push to Talk
         # 3rd row ----------
         (0x000000, 'LIVE on', [Keycode.ALT, Keycode.F8]), #Toggle LIVE
