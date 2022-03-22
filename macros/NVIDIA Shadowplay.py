@@ -13,7 +13,7 @@ app = {               # REQUIRED dict, must be named 'app'
         # 2nd row ----------
         (0x000000, 'Stats', [Keycode.CONTROL, Keycode.ALT, 'r']), #Performance Overlay
         (0x000000, 'Mic', [Keycode.CONTROL, Keycode.ALT, 'm']), # Toggle Mic````
-        (0x000000, 'P2T', ['`']), #Push to Talk
+        (0x000000, 'P2T', [Keycode.GRAVE_ACCENT]), #Push to Talk
         # 3rd row ----------
         (0x000000, 'LIVE on', [Keycode.ALT, Keycode.F8]), #Toggle LIVE
         (0x000000, 'Pause', [Keycode.ALT, Keycode.F7]), #Pause/Resume LIVE
