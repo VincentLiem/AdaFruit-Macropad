@@ -1,9 +1,10 @@
+#Works for Firefox and Chrome
 from adafruit_hid.consumer_control_code import ConsumerControlCode
 from adafruit_hid.keycode import Keycode
 
 
 app = {               # REQUIRED dict, must be named 'app'
-    'name' : 'Firefox Bookmarks', # Application name
+    'name' : 'Bookmarks', # Application name
     'macros' : [      # List of button macros...
         # COLOR    LABEL    KEY SEQUENCE
         # 1st row ----------
