@@ -13,7 +13,7 @@ app = {               # REQUIRED dict, must be named 'app'
         (0x000000, 'Gmail', [Keycode.CONTROL, 'l', 'www.Gmail.com', Keycode.ENTER]),
         # 2nd row ----------
         (0x000000, 'FB', [Keycode.CONTROL, 'l', 'www.facebook.com', Keycode.ENTER]),
-        (0x000000, 'Insta', [Keycode.CONTROL, 'l', 'www.Instagram.com', Keycode.ENTER]),
+        (0x000000, 'Insta', [Keycode.CONTROL, 'l', 'www.instagram.com', Keycode.ENTER]),
         (0x000000, 'Twitter', [Keycode.CONTROL, 'l', 'www.twitter.com', Keycode.ENTER]),
         # 3rd row ----------
         (0x000000, 'Reddit', [Keycode.CONTROL, 'l', 'www.reddit.com', Keycode.ENTER]),
