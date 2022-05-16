@@ -1,4 +1,4 @@
-#Works for Firefox and Chrome
+# Works for Firefox and Chrome
 from adafruit_hid.consumer_control_code import ConsumerControlCode
 from adafruit_hid.keycode import Keycode
 
