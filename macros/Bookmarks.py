@@ -10,7 +10,7 @@ app = {               # REQUIRED dict, must be named 'app'
         # 1st row ----------
         (0x000000, 'Google', [Keycode.CONTROL, 'l', 'www.google.com', Keycode.ENTER]),
         (0x000000, 'Youtube', [Keycode.CONTROL, 'l', 'www.youtube.com', Keycode.ENTER]),
-        (0x000000, 'Gmail', [Keycode.CONTROL, 'l', 'www.Gmail.com', Keycode.ENTER]),
+        (0x000000, 'Gmail', [Keycode.CONTROL, 'l', 'www.gmail.com', Keycode.ENTER]),
         # 2nd row ----------
         (0x000000, 'FB', [Keycode.CONTROL, 'l', 'www.facebook.com', Keycode.ENTER]),
         (0x000000, 'Insta', [Keycode.CONTROL, 'l', 'www.instagram.com', Keycode.ENTER]),
