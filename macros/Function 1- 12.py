@@ -22,7 +22,7 @@ app = {               # REQUIRED dict, must be named 'app'
         (0x000000, 'F9', [Keycode.F9]),
         # 4th row ----------
         (0x000000, 'F10', [Keycode.F10]),
-        (0x000000, 'F1', [Keycode.F11]),
+        (0x000000, 'F11', [Keycode.F11]),
         (0x000000, 'F12', [Keycode.F12]),
         # Encoder button ---
         (0x000000, '', [])
