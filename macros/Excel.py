@@ -15,7 +15,7 @@ app = {               # REQUIRED dict, must be named 'app'
         (0x000000, 'Copy', [Keycode.CONTROL, 'c']),
         (0x000000, 'Paste', [Keycode.CONTROL, 'v']),
         # 3rd row ----------
-        (0x000000, 'Fit C', [Keycode.ALT, 'hoi']),
+        (0x000000, 'Fit W', [Keycode.ALT, 'hoi']),
         (0x000000, 'Fill D', [Keycode.CONTROL, 'd']),
         (0x000000, 'Fill R', [Keycode.CONTROL, 'r']),
         # 4th row ----------
