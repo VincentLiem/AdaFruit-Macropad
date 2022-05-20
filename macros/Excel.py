@@ -9,7 +9,7 @@ app = {               # REQUIRED dict, must be named 'app'
         # 1st row ----------
         (0x000000, 'Undo', [Keycode.CONTROL, 'z']),
         (0x000000, 'Redo', [Keycode.CONTROL, 'y']),
-        (0x000000, 'Wrap', [Keycode.ALT, 'w']),
+        (0x000000, 'Wrap', [Keycode.ALT, 'hw']),
         # 2nd row ----------
         (0x000000, 'Cut', [Keycode.CONTROL, 'x']),
         (0x000000, 'Copy', [Keycode.CONTROL, 'c']),
@@ -21,7 +21,7 @@ app = {               # REQUIRED dict, must be named 'app'
         # 4th row ----------
         (0x000000, 'Fmt R', [Keycode.ALT, 'hoa']),
         (0x000000, 'Fill D', [Keycode.CONTROL, 'd']),
-        (0x000000, 'Sum', [Keycode.ALT, 'Keycode.EQUALS']),
+        (0x000000, 'Sum', [Keycode.ALT, Keycode.EQUALS]),
         # Encoder button ---
         (0x000000, '', [])
     ]
